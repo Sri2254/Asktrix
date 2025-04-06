@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "argon-liberty-452213-f0",
+  "private_key_id": "a592714170b5fb5c394db44dcb51fc3f39fe6abe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCf+sN714qUrP/8\nBwAJhIu6g4nJGKga5LydfYhnaUmTQnQbXhcpsZ8lrfZjn+mFNc+YIuP0AbtF24d4\nzpr1NAZe+Tjpc2zEbeetv7LtUoeAfkV30XEjZOeOFlmaL2xBajZh+qImdbtgkCL4\nEhJTz3Q7/i+VnIqEVRzIOyYFlFCl5Nd+zKlg1s+fDPrv7O+87Z214MMd4nexEJ1p\nMKgHLTNCIFpcskKs7Rtipy2KzAqvwsdkvWQIwDc2DHR1rdKqXRTRG0sjA/1XZ4tg\nvH0obifNa7CVDyO2iJsLxjr38sf/4Ke4UcVYcyR7dOnNGLj422KoDS1DlyIAdhsr\nHg4r4F7jAgMBAAECggEAGby+mVxmU5/3eOTpaR6VWjbSQnOAi/8TpySsfrKOHy5Y\nPpTnFhKY33d6xbFS4Nb05G1sjfN/XPBB/boDbQJnKf1fXhNvQrTJyoamMw8NdKsb\n4vhjgsW3iQDofmk1udpsEFxBnP1g3Vqi/ZTutOQRt5sfraqnED4fKMl3RvuC9AU5\nK8LjuK2WUlJ3OuIJ8SNSLc+E+roMiwO9IVjeXF5m0NB1uFK3AwrFecIXbQzeBBc8\nio5nH3kIMgVhOBL/O/IQ+fqn++XXQaAjATPA9knWSPsxcZ71By8lFRhg1YZfSE7P\nQeHfUrTAUdnbol0XIErdj/pDmHN3saxobqLk5NU5tQKBgQDZX7GCH/xQKpxNlMdW\nI3L2/nRQD9tIqZcO2lPpcYpUS8xBCKkkZuGcBt75l/u0EdS+qOwIjChnWvOvZiqO\nAsCHGEYem8rejljzekMYdw8BKYr5M1N+iYSSoJQSZJ4f2K90gk5vPe1UFGt5XhLC\n5CA3fusCdcV/WB6RMiaRtKj4RQKBgQC8aDZ4GvTdyUfov94P6dc5fPOirLxn4U+3\n4ZLIDE/v2A5s9IGQo9hf8GNsPTOktzlMzwZhntlN24UUIXZ9PdOsAroNvUmgjXak\nyPFoPJy/mUSPGuv1ozVW/w1Z50ZosSamDWzdrukMGvyI15sBqmIi0v2vJqjBgJrL\nAaOYyIERBwKBgGRj0HwTP5jahQNDcegzSPYPQDJ1kEV3pT8Dz/shJ8yUkQl78XnR\nVeKUPcgxy9o23fUL2K595G8PTzmzSnX5iWca689ZDhFI1oXj8jbLTY+w2vEKJkZr\nRmHdbWUtOOXmUenSAF1Z0VCieZw8uRdu+f4HTIv/Ti3oyX0vFyb1s4+tAoGAOpJT\nTKdktIZcmpj7WgsiY7barxnwQIMlG08/KH3bY/7RDUI9/U9SdxDud7nXEj/7yksZ\n+sM9Xxz9lDKK+Yh9A56dZKQR/Z284qGtmvAs8sudKrf93xFsBa2o4ugpVWatUzYd\nQBWeUasaExikEbJ8a8MYJploIS/v72iFCXxb04UCgYBipwWSnKqCMVRCFDhEoT3v\nLNbTjqW6Dtf9mpVmWnuSaouWmk7IawPVHUPWLmGFj+vxmkwNIW7UJ5Xr8MEQOJ1d\nYiQSEGCd9Uj3eXuj6q+ovM+6Wq+zZBx0u7TrDxkLJlWAE8k4OP64+0Z3FyvNupTa\nV9Ov7e4g23J43NI5rlrkGQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "fin-bot@argon-liberty-452213-f0.iam.gserviceaccount.com",
+  "client_id": "106804028310032096028",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fin-bot%40argon-liberty-452213-f0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
