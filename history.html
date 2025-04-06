@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Chat History{% endblock %}
+
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="mb-4">Your Chat History</h2>
+    
+    {% if conversations %}
+        {% for conv in conversations %}
+        <div class="conversation-container">
+            <div class="conversation-header">
+                <h3 class="conversation-title">
+                    Conversation {{ loop.index }}
+                    {% if conv.language %}
+                    <span class="language-badge">{{ conv.language|upper }}</span>
+                    {% endif %}
+                    {% if conv.is_financial %}
+                    <span class="language-badge financial-badge">Financial</span>
+                    {% endif %}
+                </h3>
+                <div class="conversation-date">
+                    {{ conv.timestamp.strftime('%b %d, %Y %H:%M') }}
+                </div>
+            </div>
+            <div class="message-container">
+                {% for msg in conv.messages %}
+                <div class="user-message">
+                    <strong>You:</strong> {{ msg.message }}
+                    <div class="message-time">{{ msg.timestamp.strftime('%H:%M') }}</div>
+                </div>
+                <div class="bot-message">
+                    <strong>AI:</strong> {{ msg.response }}
+                    <div class="message-time">{{ msg.timestamp.strftime('%H:%M') }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <div class="empty-state">
+            <i class="fas fa-comment-slash fa-3x mb-3"></i>
+            <h4>No conversations yet</h4>
+            <p>Start chatting to see your history here</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

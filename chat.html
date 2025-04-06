@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3 sidebar bg-light">
+            <button id="new-chat-btn" class="btn btn-primary w-100 mb-3">New Chat</button>
+            <div class="conversation-list">
+                <h6 class="fw-bold">🕓 Recent Conversations</h6>
+                <ul id="conversation-history" class="list-unstyled">
+                    <!-- Conversations will be loaded here -->
+                </ul>
+            </div>
+
+            <!-- Language Selection -->
+            <div class="mt-4">
+                <label for="language-select" class="form-label"><i class="bi bi-translate"></i> Select Language</label>
+                <select id="language-select" class="form-select">
+                    <option value="en-US">English</option>
+                    <option value="hi-IN">Hindi</option>
+                    <option value="ta-IN">Tamil</option>
+                    <option value="fr-FR">French</option>
+                    <option value="es-ES">Spanish</option>
+                </select>
+            </div>
+
+            <!-- Read Aloud Switch -->
+            <div class="form-check form-switch mt-3">
+                <input class="form-check-input" type="checkbox" role="switch" id="readAloudSwitch" checked>
+                <label class="form-check-label" for="readAloudSwitch">🔊 Read Aloud</label>
+            </div>
+
+            <!-- Export Chat -->
+            <div class="mt-3">
+                <button id="export-chat-btn" class="btn btn-sm btn-outline-success w-100">
+                    📥 Export Chat
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <h4 class="mb-0">💬 Chat with Asktrix</h4>
+                </div>
+
+                <div class="card-body chat-container">
+                    <div id="chat-messages" class="mb-3" style="max-height: 500px; overflow-y: auto;">
+                        <!-- Chat messages will appear here -->
+                    </div>
+
+                    <!-- In chat.html, replace the input-group div with this: -->
+                    <form id="chat-form">
+                        <div class="input-group">
+                            <button id="voice-input-btn" class="btn btn-outline-secondary" title="Start voice input" type="button">
+                                <i class="bi bi-mic"></i>
+                            </button>
+                            <input type="text" id="chat-input" class="form-control" placeholder="Ask about budgeting, investments, savings...">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}
