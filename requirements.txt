@@ -4,7 +4,6 @@ Flask-Dance
 Flask-SQLAlchemy
 SQLAlchemy
 python-dotenv
-openai
 google-generativeai
 langchain
 langchain-google-genai
@@ -16,3 +15,9 @@ pygame
 streamlit
 sentence-transformers
 googletrans==4.0.0-rc1
+gtts
+langchain-community
+pydantic
+translate
+werkzeug
+
